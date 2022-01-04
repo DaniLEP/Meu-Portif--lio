@@ -1,0 +1,90 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: Verdana;
+    max-width: 900px;
+    margin:auto;
+}
+.photo{
+    border: 1px solid rgb(17, 10, 10);
+    border-radius: 50px;
+    max-width: 460px;
+
+}
+#title, .subtitle, .post_title {
+    color:#110a0a;
+    font-size-adjust: none;
+    
+}
+
+#title {
+    font-weight: normal;
+    font-size: 40px;
+    text-transform: auto;
+    display: inline-block;
+    margin-top: 20px;
+    max-height: none;
+  
+}
+
+a{
+    text-decoration: line-through;
+    color: rgb(17, 10, 10);
+}
+.post_title {
+    margin: 0px;
+    margin-bottom: 15px;
+    text-transform: auto;
+    text-align: justify;
+}
+
+.post {
+    background-color:white;
+    padding: 20px;
+    border: 3px solid #000;
+    margin: -0px;
+    border-radius: 15px 60px;
+}
+.post_content{
+    margin: 0px;
+    margin-bottom: 15px;
+    text-transform: auto;
+    text-align: justify;
+    font-weight: normal;
+}
+.post_image{
+    margin-bottom: 40px;
+    width: 400px;
+}
+.post_image2{
+    margin-bottom: 40px;
+    width: 400px
+    
+}
+.contacts_list{
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+.contacts_list li a{
+    text-decoration: none;
+    color: blue;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.subtitle{
+    width: 5px;
+    margin-top: auto;
+}
+.Twitter{
+    max-width: 20px;
+    margin-left: auto;
+
+}
+
+/* .imgDanilo{
+    display: inline-block;
+}
+#title{
+    display: inline-block;
+    margin-top: 20px;
+} */
